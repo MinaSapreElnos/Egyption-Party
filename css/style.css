@@ -1,0 +1,49 @@
+#Home{
+    background-image: url(../overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+}
+.sideBar{
+        height: 100%;
+        width: 0px;
+        background-color: rgb(3, 3, 22);
+        position: fixed;
+        top: 0;
+        left: 0; 
+        overflow: hidden;
+}
+
+.sideBar a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    
+  
+}
+.open{
+    position: absolute;
+    top: 50%;
+    left: 0px;;
+    color: white;
+    font-size: 40px;
+}
+
+.close{
+    padding-left: 150px;
+}    
+
+.prg1, .prg2 ,.prg3,.prg4{
+    display: none;
+}
+
+#Duration{
+    background-image: url(../overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 50vh;
+}
